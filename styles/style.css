@@ -3,6 +3,12 @@
     transition: 1s;
 }
 
+@media only screen and (max-width: 600px) {
+    .flaxible-section {
+        flex-direction: column;
+    }
+}
+
 h5 {
     color: #4A4A4A;
     font-weight: 600;
